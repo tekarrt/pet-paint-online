@@ -1,0 +1,48 @@
+@import "./var.scss";
+
+.toolbar {
+    height: 67px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 0 26px;
+    &__btn {
+        height: 53px;
+        width: 53px;
+        border: 0;
+        cursor: pointer;
+        background-size: cover;
+        margin: 0 5px;
+    }
+    .pen {
+        background: url(../assets/Edit_Pencil_01.svg) no-repeat center center;
+    }
+    .line {
+        background: url(../assets/Path.svg) no-repeat center center;
+    }
+    .circle {
+        background: url(../assets/Radio_Unchecked.svg) no-repeat center center;
+    }
+    .rect {
+        background: url(../assets/Checkbox_Unchecked.svg) no-repeat center center;
+    }
+    .eraser {
+        background: url(../assets/Edit_Pencil_Line_02.svg) no-repeat center center;
+    }
+    .undo {
+        margin-left: auto;
+        background: url(../assets/Forward.svg) no-repeat center center;
+    }
+    .redo {
+        background: url(../assets/back.svg) no-repeat center center;
+    }
+    .delete {
+        background: url(../assets/delete_forev.svg) no-repeat center center;
+    }
+    .save {
+        background: url(../assets/description-24px.svg) no-repeat center center;
+    }
+}

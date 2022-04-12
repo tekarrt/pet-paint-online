@@ -1,0 +1,8 @@
+{
+  "name": "paint-online",
+  "version": "1.0.0",
+  "description": "Paint online",
+  "main": "index.js",
+  "author": "Tekart",
+  "license": "ISC"
+}
